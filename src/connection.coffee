@@ -684,7 +684,6 @@ class Connection extends EventEmitter
     enableAnsiNullDefault = if @config.options.enableAnsiNullDefault then 'on' else 'off'
     """set textsize #{@config.options.textsize}
 set quoted_identifier on
-set arithabort off
 set numeric_roundabort off
 set ansi_warnings on
 set ansi_padding on
